@@ -1,0 +1,34 @@
+{%load static%}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <title>Login</title>
+    <style>
+          #outer{
+            box-shadow: 5px 5px 40px -15px rgb(255, 255, 255);
+            box-decoration-break: slice;
+            
+        }
+        #inner{
+            box-shadow: 5px 5px 40px -15px rgb(0, 230, 255);
+        }
+    </style>
+</head>
+<body class="bg-dark text-center text-white">
+    <div class="container mt-5" style="border: 2px solid white; width: 600px; border-radius: 30px;" id="outer">
+        <h1 class="mt-5">Login</h1>
+        <div class="container-fluid text-white p-5 mb-5" id="inner" style="width: 500px;">
+            <form action="" class="d-inline">
+                <input class="form-control" type="email" placeholder="Enter email" style="height: 50px;">
+                <input class="form-control mt-3" type="password" placeholder="Enter password" style="height: 50px;">
+                <h4 class="mt-1"> <a href="signup"> haven't registered</a></h4>
+                <button class="btn bg-transparent text-white mt-3" style="border: 2px solid white; width: 200px;">Submit</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
